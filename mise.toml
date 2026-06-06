@@ -1,0 +1,6 @@
+[tools]
+node = "lts"
+pnpm = "11.5.2"
+
+[deps.pnpm]
+auto = true
