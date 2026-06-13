@@ -50,6 +50,6 @@ depends = ["playwright:install"]
 
 [tasks."playwright:install"]
 description = "Install playwright browser dependencies"
-run = "pnpm exec playwright install"
+run = "pnpm exec playwright install chromium --with-deps"
 hide = true
 
